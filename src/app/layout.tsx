@@ -9,11 +9,6 @@ import { ThemeProvider } from 'styled-components'
 
 // const inter = Inter({ subsets: ['latin'] })
 
-// export const metadata: Metadata = {
-//   title: 'Book Wise',
-//   description: 'Create next app',
-// }
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,6 +20,7 @@ export default function RootLayout({
         <title>Book Wise</title>
         <meta name="description" content="Create next app" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <ThemeProvider theme={theme}>
         <StyledComponentsRegistry>

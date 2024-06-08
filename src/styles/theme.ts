@@ -1,6 +1,6 @@
 'use client'
 
-const theme = {
+export const theme = {
   fonts: {
     default: 'Nunito, sans-serif',
   },
@@ -69,4 +69,4 @@ const theme = {
   },
 }
 
-export default theme
+export type Theme = typeof theme

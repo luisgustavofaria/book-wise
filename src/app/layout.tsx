@@ -2,7 +2,7 @@
 
 import StyledComponentsRegistry from '@/lib/registry'
 import { GlobalStyle } from '@/styles/global'
-import theme from '@/styles/theme'
+import { theme } from '@/styles/theme'
 import { ThemeProvider } from 'styled-components'
 import { Nunito_Sans } from 'next/font/google'
 

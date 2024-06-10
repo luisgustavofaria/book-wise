@@ -81,8 +81,8 @@ export default function Home() {
         <Image
           //height={912}
           //width={598}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
           alt="login"
           src="/image.png"
           priority

@@ -15,6 +15,11 @@ const ImageContainer = styled.div`
   img {
     border-radius: 20px;
     overflow: hidden;
+    width: 50px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 `
 
@@ -23,11 +28,11 @@ const LoginContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  //padding: 20px;
 `
 
 const LoginBox = styled.div`
-  width: 372px;
+  max-width: 372px;
+  width: 100%;
 
   h1 {
     font-size: ${(props) => props.theme.fontSizes['2xl']};
@@ -42,9 +47,8 @@ const LoginBox = styled.div`
   }
 `
 
-const Login = styled.div`
+const Login = styled.form`
   margin-top: 40px;
-  width: 372px;
   display: flex;
   flex-direction: column;
   gap: 16px;
